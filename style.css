@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
 	font-family: "Linux Libertine";
 	src: url("fonts/LinLibertine_RZ.woff") format('woff');
 }
@@ -176,12 +176,7 @@ fieldset {
 textarea {
 	resize: vertical;
 }
-.browserupgrade {
-	margin: 0.2em 0;
-	background: #ccc;
-	color: #000;
-	padding: 0.2em 0;
-}
+
 .hidden {
 	display: none !important;
 }
@@ -419,7 +414,7 @@ div.articleRightInner {
 	float: left;
 }
 #simpleSearch {
-	margin: 1em 1em 0em 0.5em;
+	margin: 0em 0em 0em 0.5em;
 	display: block;
 	width: 267px;
 	height: 23px;
@@ -437,7 +432,7 @@ div.articleRightInner {
 	border: none;
 	vertical-align: top;
 	height: 23px;
-	width: 239px;
+	width: 144px;
 	font-size: 0.8em;
 }
 #submitSearch {
@@ -453,6 +448,87 @@ div.articleRightInner {
 	float: right;
 	line-height: 0;
 }
+.rechteInfobox{
+	
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+
+	background-color: #f8f9fa;
+    color: #222;
+    
+    border: 1px solid #a2a9b1;
+	border-collapse: collapse;
+	
+	font-size: 100%;
+	border-spacing: 2px;
+	direction: ltr;
+	line-height: 1.6;
+	font-family: sans-serif;
+
+	clear: right;
+    float: right;
+	margin: 1em 0 1em 1em;
+	direction: ltr;
+}
+
+
+.thumb.tright{
+	margin: 0.5em 0 1.3em 1.4em;
+	margin-bottom: 0.5em;
+    width: auto;
+	background-color: transparent;
+	clear: right;
+	float: right;
+	display: block;
+	direction: ltr;
+	position: relative;
+    line-height: 1.6;
+    font-size: 0.875em;
+	z-index: 0;
+	padding: 1em;
+    background-color: #ffffff;
+	color: #222222;
+	font-family: sans-serif;
+}
+
+.thumbinner{
+    line-height: 1.6;
+	color: #222222;
+	direction: ltr;
+	display: block;
+	border: 1px solid #c8ccd1;
+    padding: 3px;
+    background-color: #f8f9fa;
+    font-size: 94%;
+    text-align: center;
+	overflow: hidden;
+	width: 172px;
+	
+	
+}
+
+.thumbcaption{
+	text-align: left;
+    border: 0;
+    line-height: 1.4em;
+    padding: 3px;
+	font-size: 94%;
+	display: block;
+	font-family: sans-serif;
+	
+	border: 1px solid #c8ccd1;
+    padding: 3px;
+	background-color: #f8f9fa;
+	overflow: hidden;
+	position: relative;
+	padding: 1em;
+    background-color: #ffffff;
+}
+
+
+
+
 .article {
 	padding: 1.25em 1.5em 1.5em 1.5em;
 	border-left: 1px solid #a7d7f9;
@@ -581,6 +657,40 @@ span.user {
 	display: inline-block;
 	margin-right: 1em;
 }
+
+.footer-info{
+    list-style: none none;
+    margin: 0;
+	padding: 0;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	padding-inline-start: 40px;
+	direction: ltr;
+	font-family: sans-serif;
+	font-size: 100%;
+	
+}
+
+.footer-info-lastmod{
+	list-style: none none;
+    margin: 0;
+	padding: 0;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	padding-inline-start: 40px;
+	direction: ltr;
+	font-family: sans-serif;
+	font-size: 100%;
+}
+
+
+
 @media screen and (max-width: 850px) {
 	#searchInput {
 		width: 110px;
