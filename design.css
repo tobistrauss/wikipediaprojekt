@@ -256,8 +256,18 @@
   direction:ltr;
   margin:1em 0 1em 1em;
   }
-  
-  .thumb.tright {
+
+  .cellblue {
+  background:LightSkyBlue; 
+  font-size:1.1em;
+  }
+
+  .cellnormal{
+  vertical-align:middle; 
+  padding:0.2em 0.4em;
+  }
+
+  .bilder.rechts {
   width:auto;
   background-color:transparent;
   clear:right;
@@ -274,7 +284,7 @@
   padding:1em;
   }
   
-  .thumbinner {
+  .bildanordnung {
   line-height:1.6;
   color:#222;
   direction:ltr;
@@ -322,20 +332,20 @@
   padding-left:15px;
   }
   
-  .contentsPanel {
+  .inhaltsverzeichnisKasten {
   border:1px solid #a2a9b1;
   background-color:#f8f9fa;
   font-size:95%;
   position:relative;
   line-height:1.7em;
-  width:280px;
+  width:213px;
   padding:5px;
   }
   
-  .contentsHeader {
+  .inhaltsverzeichnisHeader {
   font-family:sans-serif;
   font-weight:700;
-  text-align:center;
+  margin-left: 1em;
   }
   
   .hidePanel,.showPanel {
@@ -348,13 +358,19 @@
   margin:0 5px;
   }
   
-  .contentsPanel ul li span {
+  .inhaltsverzeichnisKasten ul li span {
   display:inline-block;
   margin-right:8px;
   }
   
-  .contentsPanel ul {
+  .inhaltsverzeichnisKasten ul {
   padding:0 0 5px 5px;
+  }
+
+  .zitat {
+    margin:1em 40px;
+    margin:1em 0;
+    margin:0;
   }
   
   .kategorien {
