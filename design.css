@@ -265,6 +265,7 @@
   .cellnormal{
   vertical-align:middle; 
   padding:0.2em 0.4em;
+  border: 1px solid #a2a9b1;
   }
 
   .bilder.rechts {
@@ -345,7 +346,7 @@
   .inhaltsverzeichnisHeader {
   font-family:sans-serif;
   font-weight:700;
-  margin-left: 1em;
+  margin-left: 1.1em;
   }
   
   .hidePanel,.showPanel {
@@ -395,8 +396,21 @@
   font-size:70%;
   line-height:1.5em;
   padding:2em 4em 2em 18em;
+  display: inline-block;
   }
-  
+
+  .footer-allgemeines{
+  display: inline; 
+  }
+
+  .footer-allgemeines-element{
+    padding: 4px;
+  }
+
+  .footer-icons{
+  float: right;
+  }
+
   @media print{
   *,:before,:after,:first-letter,:first-line {
   background:transparent;
